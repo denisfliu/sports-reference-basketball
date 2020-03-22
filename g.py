@@ -61,7 +61,7 @@ def get_goods(url, csvfile):
         if (a == 'D2' or b == 'D2'):
             continue
         else:
-            csvfile.write(f'{a}, {b}\n')
+            csvfile.write(f'{a},{b}\n')
 
 def append_array(a):
     if (a[0].find('a').has_attr('href')):
